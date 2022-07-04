@@ -1,25 +1,27 @@
 @import 'normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-    --primary: red;
+    --primary-color: #25274d;
+    --secondary-color: #2e9cca;
+    --white-color: white;
+    --black-color: black;
+    --text-color: #262626
 }
 
 * {
     box-sizing: border-box;
-}
-
-html {
-    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.6rem;
+    color: var(--text-color);
+    // font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
 }
